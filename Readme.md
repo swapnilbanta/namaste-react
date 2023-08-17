@@ -1,3 +1,4 @@
+ Notes of the namsate react js
  <script>
      const heading =    document.createElement("h1");
      heading.innerHTML = "Hello world";

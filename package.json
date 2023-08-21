@@ -14,6 +14,7 @@
   "author": "swapnil banta",
   "license": "ISC",
   "dependencies": {
-    "parcel-bundler": "^1.12.5"
+    "parcel-bundler": "^1.12.5",
+    "react": "^18.2.0"
   }
 }

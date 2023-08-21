@@ -1,0 +1,19 @@
+{
+  "name": "namsate-react",
+  "version": "1.0.0",
+  "description": "This is namsate react by akshay saini",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "react",
+    "namsate",
+    "react"
+  ],
+  "author": "swapnil banta",
+  "license": "ISC",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}

@@ -52,3 +52,48 @@ const heading  = React.createElement("h1",{id:"heading"},"Hello from namsate rea
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(heading);
 
+
+
+// const heading  =  React.createElement("h1",{id:"heading"},"Hello world from react");
+import  React from "react";
+import ReactDOM from "react-dom/client";
+
+//React.createElement = >ReactElement-JS Object =>HTMLElement(render)
+//JSX is not html in JS
+//JSX HTML- like syntax or XL-syntax
+//JSX(Transplied before it goes to JS Engine) -Parcel -Babel
+//Babel covert the code that react will understand
+//JSX =>Babel transplies it to=>React.createElement = >ReactElement-JS Object =>HTMLElement(render)
+//babel converting the JSX into React create Element   
+//babel is a javascript compiler 
+//babel transplied into e6 features for e6 features
+// const jsxHeading = <h1 id="heading"  className="head">Namsate from react js using jsx</h1>;
+//React element
+const   title = (
+    <div>
+<h1 id="heading"  className="head">Namsate react by using using jsx
+</h1>
+<h2>
+    Test two
+</h2>
+</div>
+
+);
+//React component
+//Two types of the component
+//Class component
+//Functional component
+//Component compositions
+const numbers = 10000;
+const HeadingComponent = ()=>{
+return <div className="container">
+    <h1>Namsate React functional component</h1>
+   {title}
+    </div>
+};
+const HeadingComponent2 = () =><h1 className="heading">Namsate React functional component</h1>;
+
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(< HeadingComponent/>);
+

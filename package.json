@@ -1,7 +1,7 @@
 {
   "name": "namsate-react",
   "version": "1.0.0",
-  "description": "This is namsate react by akshay saini",
+  "description": "This is namsate react course by akshay saini",
 
   "scripts": {
     "start": "parcel index.html",
@@ -11,7 +11,7 @@
   "keywords": [
     "react",
     "namsate",
-    "react"
+    "javascript"
   ],
   "author": "swapnil banta",
   "license": "ISC",
